@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "Data from Safran";
+        return "New Data from Safran";
     }
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Message from Safran";
+        return "New Message from Safran";
     }
 }
